@@ -1,4 +1,10 @@
-.idea
 node_modules
-build
 npm-debug.log
+**/.DS_Store
+dist
+web-dist
+.idea
+.vscode
+platforms
+cordova-plugin-whitelist
+ionic-plugin-keyboard
