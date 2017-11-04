@@ -2,11 +2,7 @@ import React from 'react';
 
 function AppContainer() {
   return (
-    <div
-      className="app-container"
-      onFocus={() => {}}
-      onBlur={() => {}}
-    >
+    <div className="app-container">
       The plates are boiling
     </div>
   );
