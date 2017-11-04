@@ -5,6 +5,3 @@ dist
 web-dist
 .idea
 .vscode
-platforms
-cordova-plugin-whitelist
-ionic-plugin-keyboard
