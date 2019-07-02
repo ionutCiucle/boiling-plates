@@ -69,6 +69,10 @@
     "arrow-body-style": [2, "as-needed"],
     "prefer-template": 2,
     "object-shorthand": [2, "always"],
+    "object-property-newline": 2,
+    "object-curly-newline": [2, {
+      "multiline": true
+    }],
     "no-param-reassign": 2,
     "lines-between-class-members": 2,
     "no-console": 1,
