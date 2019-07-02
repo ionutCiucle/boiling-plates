@@ -17,35 +17,70 @@
     "semi": [2, "always"],
     "quotes": [2, "single"],
     "strict": [2, "never"],
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
-    "react/react-in-jsx-scope": 2,
     "react/self-closing-comp": [2, {
       "component": true,
-      "html": false
+      "html": true
+    }],
+    "react/no-multi-comp": 2,
+    "react/no-typos": 2,
+    "react/sort-comp": 2,
+    "react/no-unused-prop-types": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/no-direct-mutation-state": 2,
+    "react/jsx-wrap-multilines": [2, {
+      "declaration": "parens-new-line",
+      "assignment": "parens",
+      "return": "parens-new-line",
+      "arrow": "parens-new-line",
+      "condition": "ignore",
+      "logical": "parens",
+      "prop": "ignore"
+    }],
+    "react/jsx-no-literals": 2,
+    "react/jsx-one-expression-per-line": 2,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-curly-spacing": [2, {
+      "when": "never",
+      "attributes": {
+        "when": "never"
+      },
+      "children": {
+        "when": "never"
+      }
+    }],
+    "react/jsx-tag-spacing": [2, {
+      "closingSlash": "never",
+      "beforeSelfClosing": "never",
+      "afterOpening": "never",
+      "beforeClosing": "never"
     }],
     "react/jsx-closing-bracket-location": [2, "tag-aligned"],
+    "react/jsx-closing-tag-location": 2,
     "react/jsx-handler-names": 1,
+    "react/jsx-pascal-case": 2,
     "react/jsx-indent-props": [2, 2],
     "react/jsx-first-prop-new-line": [2, "multiline"],
     "react/jsx-equals-spacing": [2, "never"],
     "react/jsx-max-props-per-line": [2, { "maximum": 1 }],
-    "react/jsx-wrap-multilines": [2, {
-      "declaration": true,
-      "assignment": true,
-      "arrow": true,
-      "return": true
-    }],
-    "react/jsx-curly-spacing": [2, "never"],
+    "react/prefer-stateless-function": 2,
     "jsx-quotes": [2, "prefer-double"],
     "no-debugger": 1,
+    "arrow-body-style": [2, "as-needed"],
+    "prefer-template": 2,
+    "object-shorthand": [2, "always"],
     "no-param-reassign": 2,
+    "lines-between-class-members": 2,
     "no-console": 1,
     "no-alert": 2,
+    "prefer-const": 2,
     "object-curly-spacing": [2, "always"],
+    "array-bracket-spacing": [2, "never"],
+    "array-bracket-newline": [2, { "multiline": true }],
     "no-unneeded-ternary": 2,
     "space-infix-ops": 2,
     "space-before-function-paren": [2, "never"],
+    "function-paren-newline": [2, "consistent"],
     "keyword-spacing": [2, { "after": true }],
     "no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
     "no-var": 2,
@@ -58,15 +93,21 @@
     "no-extra-bind": 2,
     "no-multi-spaces": 2,
     "no-multiple-empty-lines": [2, { "max": 1 }],
-    "padded-blocks": [2, { "blocks": "never", "classes": "never", "switches": "never" }],
+    "padded-blocks": [2, {
+      "blocks": "never",
+      "classes": "never",
+      "switches": "never",
+    }],
     "no-useless-return": 2,
     "no-undef-init": 2,
+    "init-declarations": [2, "always"],
     "key-spacing": [2, {
       "beforeColon": false,
       "afterColon": true
     }],
+    "space-in-parens": [2, "never"],
     "arrow-spacing": 2,
-    "no-undef": 0,
+    "no-undef": 2,
     "new-parens": 2,
     "no-array-constructor": 2,
     "no-new-object": 2,
@@ -79,6 +120,10 @@
     "no-useless-constructor": 2,
     "camelcase": 2,
     "comma-dangle": [2, "never"],
+    "comma-spacing":  [2, {
+      "before": false,
+      "after": true
+    }],
     "func-call-spacing": [2, "never"],
     "new-cap": [2, {
       "newIsCap": true
